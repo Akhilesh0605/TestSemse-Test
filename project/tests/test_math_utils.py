@@ -1,6 +1,6 @@
 import pytest
 
-from app.utils import add, divide, mul, sub
+from app.math_utils import add, divide, mul, sub
 
 
 def test_add():
