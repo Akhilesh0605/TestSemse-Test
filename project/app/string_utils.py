@@ -12,4 +12,5 @@ def reverse_string(text):
 
 def is_palindrome(text):
     cleaned = "".join(text.lower().split())
+    print("hello all")
     return cleaned == cleaned[::-1]
