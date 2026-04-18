@@ -1,4 +1,4 @@
-from app.string_utils import reverse_string, to_lower, to_upper
+from app.string import reverse_string, to_lower, to_upper
 
 
 def test_to_upper():
