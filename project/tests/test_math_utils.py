@@ -1,6 +1,6 @@
 import pytest
 
-from app.math_utils import add, divide, multiply, subtract
+from app.math_utils import add, divide, mul, sub
 
 
 def test_add():
@@ -9,13 +9,13 @@ def test_add():
 
 
 def test_subtract():
-    assert subtract(10, 4) == 6
-    assert subtract(0, 5) == -5
+    assert sub(10, 4) == 6
+    assert sub(0, 5) == -5
 
 
 def test_multiply():
-    assert multiply(3, 4) == 12
-    assert multiply(-2, 5) == -10
+    assert mul(3, 4) == 12
+    assert mul(-2, 5) == -10
 
 
 def test_divide_normal_case():

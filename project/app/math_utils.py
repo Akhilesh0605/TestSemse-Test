@@ -2,12 +2,12 @@ def add(a, c):
     return a + c
 
 
-def subtract(a, c):
+def sub(a, c):
     return a - c
 
 
-def multiply(a, c):
-    return a * c
+def mul(a, b):
+    return a * b
 
 
 def divide(a, b):
