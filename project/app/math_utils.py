@@ -6,8 +6,8 @@ def sub(a, c):
     return a - c
 
 
-def mul(a, b):
-    return a * b
+def mul(a, c):
+    return a * c
 
 
 def divide(a, b):
