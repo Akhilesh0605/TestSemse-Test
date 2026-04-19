@@ -1,6 +1,6 @@
 import pytest
 
-from app.math_utils import add, divide, mul, sub,cube,square
+from app.math_utils import add, divide, mul, sub,cubed,square
 
 
 def test_add():
@@ -26,4 +26,4 @@ def test_square():
     assert square(2)==4
 
 def test_cube():
-    assert cube(2)==8
+    assert cubed(2)==8
