@@ -20,3 +20,6 @@ def square(a):
 
 def cubed(a):
     return a*a*a
+
+def div(a,b):
+    return a/b
