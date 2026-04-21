@@ -23,6 +23,13 @@ def test_divide_normal_case():
     assert divide(9, 3) == 3
     assert div(9,3)==3
 
+
+def test_divide_by_zero_raises():
+    with pytest.raises(ZeroDivisionError):
+        divide(10, 0)
+    with pytest.raises(ZeroDivisionError):
+        div(10, 0)
+
 def test_square():
     assert square(2)==4
 

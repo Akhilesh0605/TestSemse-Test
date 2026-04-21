@@ -1,4 +1,4 @@
-from app.string import reverse_string, to_lower, to_upper
+from app.string import is_palindrome, reverse_string, to_lower, to_upper
 
 
 def test_to_upper():
@@ -14,3 +14,9 @@ def test_to_lower():
 def test_reverse_string():
     assert reverse_string("abcd") == "dcba"
     assert reverse_string("Test") == "tseT"
+
+
+def test_is_palindrome():
+    assert is_palindrome("racecar") is True
+    assert is_palindrome("Never odd or even") is True
+    assert is_palindrome("python") is False
