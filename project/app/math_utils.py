@@ -16,7 +16,7 @@ def mul(a, c):
     return a * c
     ## addding comments to seee what chantsses
     ##jhls adh; kkdhfa
-    
+
 
 
 def divide(a, b):
@@ -24,6 +24,7 @@ def divide(a, b):
     if b == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
     return a / b
+##jjdsgp kdh ajfda'
 
 
 def square(a):
