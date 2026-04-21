@@ -14,6 +14,9 @@ def sub(a, c):
 def mul(a, c):
     """Return the product of two numbers."""
     return a * c
+    ## addding comments to seee what chantsses
+    ##jhls adh; kkdhfa
+    
 
 
 def divide(a, b):
