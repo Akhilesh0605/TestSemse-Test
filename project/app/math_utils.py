@@ -1,25 +1,39 @@
+"""Small math helper functions used by the test suite."""
+
+
 def add(a, c):
+    """Return the sum of two numbers."""
     return a + c
 
 
 def sub(a, c):
+    """Return the difference of two numbers."""
     return a - c
 
 
 def mul(a, c):
+    """Return the product of two numbers."""
     return a * c
 
 
 def divide(a, b):
+    """Return a divided by b, raising for division by zero."""
     if b == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
     return a / b
 
+
 def square(a):
-    return a*a
+    """Return the square of a number."""
+    return a * a
+
 
 def cubed(a):
-    return a*a*a
+    """Return the cube of a number."""
+    return a * a * a
 
-def div(a,b):
-    return a/b
+
+def div(a, b):
+    """Backward-compatible alias for divide."""
+    return divide(a, b)
+    
